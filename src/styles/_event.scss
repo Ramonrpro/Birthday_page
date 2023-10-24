@@ -1,0 +1,49 @@
+main {
+    background: linear-gradient(45deg, #0f0f0f, #232d3f, #005b41, #008170);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+    .event {
+        padding: 80px 0;
+        .container {
+            display: flex;
+        }
+        &__details {
+            margin-right: 30px;
+            color: #fff;
+            &__title {
+                margin-bottom: 16px;
+            }
+            &__description {
+            }
+        }
+
+        &__image {
+            border-radius: 8px;
+            max-width: 360px;
+            height: 300px;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                display: block;
+                text-align: center;
+            }
+
+            &__image {
+                margin-top: 20px;
+                width: 100%;
+            }
+        }
+    }
+    @keyframes colors {
+        0% {
+            background-position: 0 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
