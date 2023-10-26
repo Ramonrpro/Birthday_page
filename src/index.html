@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Happ.y</title>
+        <title>Happy</title>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="src/styles/main.scss">
+        <link rel="stylesheet" href="styles/main.scss">
     </head>
     <body >
        <section class="hero">
@@ -16,8 +16,12 @@
             <h1 class="hero__title">A maior festa da região já vai começar</h1>
         <p class="hero__title__text">
             <p class="hero__title__text">Começa em:</p>
-             <span>30d</span> <span>7h</span> <span>48m</span> <span>27s</span>
+            <span id="dias"></span>
+            <span id="horas"></span>
+            <span id="minutos"></span>
+            <span id="segundos"></span>
         </p>
+        <h2 id="end"></h2>
         <button class="hero__button">Garantir minha vaga</button>
         </div>
        </section>
@@ -30,7 +34,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora temporibus nulla minima mollitia laboriosam earum dicta quidem quo cum accusantium eaque porro sit dolorum nobis et ad dolores voluptatem natus quibusdam optio similique, tempore voluptas. Quo, nisi doloribus hic earum enim culpa consequuntur pariatur, officia aspernatur rerum quam, error incidunt!
                 </p>
                 </div>
-                <img class="event__image" src="src/img/bar.jpg" alt="open bar com muita cerveja">
+                <img class="event__image" src="img/bar.jpg" alt="open bar com muita cerveja">
             </div>
            </section>
            <section class="event image--left">
@@ -41,7 +45,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora temporibus nulla minima mollitia laboriosam earum dicta quidem quo cum accusantium eaque porro sit dolorum nobis et ad dolores voluptatem natus quibusdam optio similique, tempore voluptas. Quo, nisi doloribus hic earum enim culpa consequuntur pariatur, officia aspernatur rerum quam, error incidunt!
                 </p>
                 </div>
-                <img class="event__image " src="src/img/food.jpg" alt="open bar com muita cerveja">
+                <img class="event__image " src="img/food.jpg" alt="open bar com muita cerveja">
             </div>
            </section>
            <section class="event">
@@ -52,7 +56,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora temporibus nulla minima mollitia laboriosam earum dicta quidem quo cum accusantium eaque porro sit dolorum nobis et ad dolores voluptatem natus quibusdam optio similique, tempore voluptas. Quo, nisi doloribus hic earum enim culpa consequuntur pariatur, officia aspernatur rerum quam, error incidunt!
                 </p>
                 </div>
-                <img class="event__image" src="src/img/show.jpg" alt="open bar com muita cerveja">
+                <img class="event__image" src="img/show.jpg" alt="open bar com muita cerveja">
             </div>
            </section>
            <footer class="footer">
@@ -67,6 +71,6 @@
        
        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
        
-        <script src="src/scripts/main.js"></script>
+        <script src="scripts/main.js"></script>
     </body>
 </html>

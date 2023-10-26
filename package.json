@@ -6,7 +6,6 @@
    },
    "name": "aniversario",
    "version": "1.0.0",
-   "main": "index.js",
    "dependencies": {
       "abortcontroller-polyfill": "^1.7.5",
       "ansi-styles": "^4.3.0",
@@ -104,7 +103,8 @@
       "yallist": "^4.0.0"
    },
    "scripts": {
-      "dev": "parcel index.html src/styles/main.scss src/scripts/main.js",
+      "build": "parcel build src/index.html",
+      "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
    },
    "keywords": [],
