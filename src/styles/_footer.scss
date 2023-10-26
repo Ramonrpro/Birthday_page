@@ -1,0 +1,16 @@
+@use "variables";
+
+.footer {
+   border-top: 2px solid variables.$corText;
+   display: flex;
+   justify-content: space-between;
+   padding: 15px;
+
+   &__logo {
+      background-color: variables.$corText;
+      color: variables.$Black;
+      font-weight: bold;
+      padding: 3px 9px;
+      border-radius: 5px;
+   }
+}
